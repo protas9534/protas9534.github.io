@@ -18,11 +18,13 @@ body {
 .main-header-loyout{
     float: left;
     width: 12%;
-    color: #34547A
+    color: #34547A;
+    text-align: center;
 }
 .main-header {
     float: left;
     width: 12%;
+    text-align: center;
 }
 .main-loyaut {
     background-color: #EEEFF1;
@@ -74,7 +76,7 @@ body {
    text-align: center;
    margin: 0 auto;
    font-size: 18px;
-   width: 500px;
+   width: 90%;
    color: #727272;
 }
 .item {
@@ -86,7 +88,7 @@ body {
     width: 13vw;
     margin-top: 50px;
     margin-bottom: 50px;
-    text-align: center;
+    text-align: left;
 }
 .item-img {
     float: left;
@@ -121,13 +123,13 @@ body {
     padding-top: 20px;
 }
 .skill-result {
-    width: 270px;
+    width: 60%;
     height: 4px;
     background-color: #34547A;
     float: left;
 }
 .skill-level {
-    width: 350px;
+    width: 80%;
     height: 4px;
     background-color: #C4C4C4;
 }
@@ -154,7 +156,7 @@ body {
     text-align: center;
     margin: 0 auto;
     font-size: 18px;
-    width: 500px;
+    width: 90%;
     color: #727272;
     padding-bottom: 45px;
 }
@@ -167,6 +169,7 @@ body {
 }
 .play-button-img {
     padding-top: 200px;
+    width: 10%;
 }
 .pictures {
     margin-top: 25px;
@@ -220,7 +223,7 @@ body {
     width: 25%;
 }
 .microsoft-logo-img {
-
+    width: 70%;
 }
 .feedback {
     padding: 50px 50px;
@@ -235,7 +238,7 @@ body {
     text-align: center;
     margin: 0 auto;
     font-size: 18px;
-    width: 500px;
+    width: 90%;
     color: #727272;
     padding-bottom: 20px;
 }
@@ -251,12 +254,14 @@ body {
 }
 .name-aria {
     padding: 5px;
+    outline: none;
 }
 .connect-mail {
     padding-bottom: 20px;
 }
 .mail-aria {
     padding: 5px;
+    outline: none;
 }
 .connect-message {
 
@@ -265,6 +270,7 @@ body {
     display: block;
     padding-left: 10px;
     padding-top: 10px;
+    outline: none;
 }
 .feedback-enter-button {
     background-color: #34547A;
@@ -295,13 +301,87 @@ body {
 }
 .footer-right {
     width: 50%;
-    text-align: center;
+    text-align: right;
     float: left;
     padding-left: 320px;
 }
 .footer-img {
     float: left;
     padding-right: 10px;
-    text-align: center;
+    text-align: right;
     width: 33%;
+}
+.vk-img {
+    width: 100%;
+}
+@media (max-width: 2560px) {
+    .vk-img {
+        width: 40%;
+    }
+}
+@media (max-width: 1024px) {
+    .frame-png {
+        width: 80%;
+    }
+    .main-header-loyout{
+        font-size: 13px;
+    }
+    .main-header {
+        font-size: 13px;
+    }
+    .main-loyaut-right-title {
+        font-size: 30px;
+        height: 50px;
+    }
+    .footer-right {
+        width: 50%;
+        text-align: right;
+        float: left;
+        padding-left: 220px;
+    }
+}
+@media (max-width: 900px) {
+    .item-block {
+        width: 33.3%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .my-photo-img {
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    .my-photo {
+        text-align: right;
+    }
+    .my-skills {
+        padding-top: 10px;
+    }
+    .vk-img {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .main-header-loyout{
+        font-size: 12px;
+    }
+    .main-header {
+        font-size: 12px;
+    }
+    .main-loyaut-left {
+        padding-left: 0px;
+    }
+    .main-loyaut-right-title {
+        font-size: 30px;
+        height: 50px;
+    }
+    .vk-img {
+        width: 100%;
+    }
+    .play-button {
+        height: 300px;
+    }
+    .play-button-img {
+        padding-top: 120px;
+    }
 }
