@@ -443,7 +443,30 @@ body {
         width: 50%;
         height: 150px;
     }
-    .vk-img {
-        width: 200%;
+    .footer-right {
+        padding-left: 150px;
     }
+    .vk-img {
+        width: 130%;
+    }
+}
+.test {
+    height: 500px;
+    width: 600px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.test__item {
+    background-color: blue;
+    flex-grow: 1;
+    height: 300px;
+}
+.test__item_start {
+    align-self: flex-start;
+    flex-grow: 5;
+    background-color: red;
 }
