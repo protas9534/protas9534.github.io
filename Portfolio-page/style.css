@@ -360,28 +360,90 @@ body {
     .vk-img {
         width: 100%;
     }
-}
-@media (max-width: 768px) {
-    .main-header-loyout{
-        font-size: 12px;
-    }
-    .main-header {
-        font-size: 12px;
-    }
-    .main-loyaut-left {
-        padding-left: 0px;
-    }
-    .main-loyaut-right-title {
-        font-size: 30px;
-        height: 50px;
-    }
-    .vk-img {
-        width: 100%;
-    }
     .play-button {
         height: 300px;
     }
     .play-button-img {
         padding-top: 120px;
+    }
+    .picture-block-paper {
+        width: 25%;
+        height: 150px;
+    }
+    .picture-block-comp-shadow {
+        width: 25%;
+        height: 150px;
+    }
+    .view {
+        padding-top: 60px;
+        width: 30%;
+    }
+    .picture-block-comp {
+        width: 25%;
+        height: 150px;
+    }
+}
+@media (max-width: 768px) {
+    .header-logo {
+        width: 15%;
+    }
+    .wd-img {
+        width: 80%;
+    }
+    .main-header-loyout{
+        font-size: 10px;
+        width: 17%;
+    }
+    .main-header {
+        font-size: 10px;
+        width: 17%;
+    }
+    .main-loyaut-left {
+        padding-left: 0px;
+    }
+    .main-loyaut-right-title {
+        font-size: 23px;
+        height: 30px;
+    }
+    .main-loyaut-right-discription {
+        font-size: 15px;
+
+    }
+    .main-loyaut-right-button {
+        padding-top: 100px;
+        padding-bottom: 10px;  
+    }
+    .loyaut-button {
+        width: 80%;
+        height: 65px;
+    }
+    .paper-img {
+        width: 80%;
+        padding-left: 10px;
+    }
+    .number {
+        font-size: 13px;
+    }
+    .project {
+        font-size: 13px;
+    }
+    .picture-block-paper {
+        width: 50%;
+        height: 150px;
+    }
+    .picture-block-comp-shadow {
+        width: 50%;
+        height: 150px;
+    }
+    .view {
+        padding-top: 30px;
+        width: 30%;
+    }
+    .picture-block-comp {
+        width: 50%;
+        height: 150px;
+    }
+    .vk-img {
+        width: 200%;
     }
 }
